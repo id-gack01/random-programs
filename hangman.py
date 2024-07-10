@@ -58,7 +58,7 @@ def main():
                     # print(*HiddenWordList, end="\n")
         else:
             TryCounter = TryCounter + 1
-            print("Try Again please. " + str(TryCounter) + "wrong tries")
+            print("Try Again please. " + str(TryCounter) + " wrong tries")
             continue
 
         print("\n")
