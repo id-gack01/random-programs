@@ -49,7 +49,7 @@ def main():
 
         # if the guessed Letter is present in the guess word
         if LetterGuess in GuessWord:
-            # iterate over the guessWord
+            # iterate over the letters in the guessWord
             for i in range(0, len(GuessWord)):
                 # where LetterGuess is same as the value of GuessWord at index i
                 if LetterGuess == GuessWord[i]:
