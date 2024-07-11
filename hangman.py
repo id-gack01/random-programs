@@ -45,7 +45,7 @@ def main():
         LetterGuess = str(input("Enter a single letter: ")).strip().lower()
 
         # preliminary checks
-        if not len(LetterGuess) == 1 or not LetterGuess.isalpha:
+        if not len(LetterGuess) == 1 or not LetterGuess.isalpha():
             print("Enter a single letter... please ")
             continue
 
