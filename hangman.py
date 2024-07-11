@@ -29,7 +29,9 @@ def main():
     # a bug I ran into is below
     # HiddenWordList is outputting ['_ _ _ _ _'] when it should go ['_', '_', '_' , '_' , '_']
     #HiddenWordList = HiddenWord.split()  #hiddenwordlist has one list item when it should have multiple items
+    #this caused a list index out of range error at all but the first index because there's only one item in the list
     #the unpack method is the way
+    
 
     #print("HiddenWordList: ", HiddenWordList)
 
