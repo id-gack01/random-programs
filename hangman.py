@@ -60,10 +60,10 @@ def main():
                     # print(*HiddenWordList, end="\n")
         else:
             TryCounter = TryCounter + 1
-            print("Try Again please. " + str(TryCounter) + " wrong tries")
+            print("Try Again please. # of wrong tries: " + str(TryCounter))
             continue
 
-        print("\n")
+        
         # join the list HiddenWord into a string again with nothing in between
         HiddenWord = "".join(HiddenWordList)
 
@@ -71,9 +71,6 @@ def main():
             isComplete = True
             print("You got it! It's:", HiddenWord.capitalize())
 
-        #iterate over the letters in the GuessWord
-
-        print("********")
 
 
 main()
