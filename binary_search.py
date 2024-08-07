@@ -22,8 +22,7 @@ class Solution:
             elif nums[middle] > target:
                 #decrease the high index value by one and redo
                 high = middle - 1
-            else:
-                return middle
+            
         
         
         #default is -1
